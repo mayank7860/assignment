@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
-import "./Header.css";
+import "./Movieheader.css";
 import SearchIcon from "@mui/icons-material/Search";
 
-function Header(props) {
+function Movieheader(props) {
   return (
     <div className="header">
       <div className="header_center">
@@ -13,4 +13,4 @@ function Header(props) {
   );
 }
 
-export default Header;
+export default Movieheader;

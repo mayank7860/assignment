@@ -2,7 +2,7 @@ import react from "react";
 
 import "./App.css";
 import Home from "./Home";
-import Header from "./Header";
+import Movieheader from "./Movieheader";
 
 import IndMovie from "./IndMovie";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

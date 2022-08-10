@@ -1,93 +1,88 @@
-.home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.headerSection{
-    display: flex;
-    justify-content: center;
-
+.headerSection {
+  display: flex;
+  justify-content: center;
 }
 
-.homeSection{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
 
-.card{
-    margin:10px;
-    
-    
- /* Image box se bahar jaro to agar border radius dene ke bad to ye use karne */
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
-    transition: transform 100ms ease-in;
-    cursor: pointer;
-    width: 350px;
-    height: 300px;
-    justify-content: space-between;
-    
+.card {
+  margin: 10px;
+
+  /* Image box se bahar jaro to agar border radius dene ke bad to ye use karne */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  width: 350px;
+  height: 300px;
+  justify-content: space-between;
 }
 
-.cardsContainer{
-    display:flex;
-    flex-wrap: wrap;
-    margin-bottom:50px;
-    justify-content: center;
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 
-.Paginat{
-    display: flex;
-    justify-content: center;
-    
+.Paginat {
+  display: flex;
+  justify-content: center;
 }
 
-
-.card:hover{
-    transform: scale(1.07);
-    text-decoration: none !important;
+.card:hover {
+  transform: scale(1.07);
+  text-decoration: none !important;
 }
 
-.card > img{
-    object-fit: fill;
-    min-width: 200px;
-    min-height: 200px;
-    width: 100%;
-    
-     
+.card > img {
+  object-fit: fill;
+  min-width: 200px;
+  min-height: 200px;
+  width: 100%;
 }
 
 .cardInfo {
-    margin-top: -9px;
-    
-    padding: 20px;
-    padding-top: 20px;
-    border: 1;
-    background-color: #edecec;
+  margin-top: -9px;
+
+  padding: 20px;
+  padding-top: 20px;
+  border: 1;
+  background-color: #edecec;
 }
 
 .cardInfo > h2 {
-    font-size: 18px;
-    font-weight: 600;
-    
+  font-size: 18px;
+  font-weight: 600;
 }
 
-
-
-.cardInfo >h4{
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    
+.cardInfo > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
-.ratingContainer{
-    display:flex;
-    align-items: center;
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+.Mcard {
+  display: table;
+}
+.cardInformaTION {
+  /* word-wrap: break-word; */
+  display: table-caption;
+  caption-side: bottom;
 }

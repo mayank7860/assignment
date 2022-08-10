@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import StarRateIcon from "@mui/icons-material/StarRate";
 import { Pagination } from "@mui/material";
 import { Link } from "react-router-dom";
-import Header from "./Header";
-import "./Header.css";
+import Movieheader from "./Movieheader";
+import "./Movieheader.css";
 import "./home.css";
 
 function Home() {
@@ -53,7 +53,7 @@ function Home() {
   return (
     <div className="home">
       <div className="headerSection">
-        <Header mainFunc={searchText} />
+        <Movieheader mainFunc={searchText} />
       </div>
 
       <div className="homeSection">
@@ -66,13 +66,13 @@ function Home() {
                   to={`/indmovie/${data.id}`}
                   key={data.id}
                 >
-                  <div key={data.id} className="card">
+                  <div key={data.id} className="Mcard">
                     <img
                       key={data.id}
                       src={imageBaseUrl + data.backdrop_path}
                       alt=""
                     />
-                    <div className="cardInfo" key={data.id}>
+                    <div className="cardInformaTION" key={data.id}>
                       <h2 key={data.id}>{data.original_title}</h2>
                       <div className="ratingContainer">
                         <StarRateIcon
