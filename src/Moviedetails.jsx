@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
-import "./IndMovie.css";
+import "./Moviedetails.css";
 import { useParams, Link } from "react-router-dom";
 
-function IndMovie() {
+function Moviedetails() {
   const { id } = useParams();
   const [movie, setMovie] = useState({});
 
@@ -55,4 +55,4 @@ function IndMovie() {
   );
 }
 
-export default IndMovie;
+export default Moviedetails;

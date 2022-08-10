@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./Home";
 import Movieheader from "./Movieheader";
 
-import IndMovie from "./IndMovie";
+import Moviedetails from "./Moviedetails";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="indmovie/:id" element={<IndMovie />} />
+          <Route path="moviedetails/:id" element={<Moviedetails />} />
           <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
